@@ -1,0 +1,9 @@
+rofi.theme: default
+#rofi.lines: 5
+#rofi.width: 25
+#rofi.font: Open Sans 10
+#rofi.color-window: #6c6c6c, #6c6c6c
+#rofi.color-normal: #6c6c6c, #f2f2f2, #6c6c6c, #c9caec, #6c6c6c
+#rofi.separator-style: none
+#rofi.hide-scrollbar: true
+#rofi.padding: 15
