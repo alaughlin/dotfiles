@@ -112,7 +112,7 @@ client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color       
 # shortcuts
 bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+q kill
-bindsym $mod+d exec rofi -show run -dpi 102 -lines 5 -width 25 -display-run ">"
+bindsym $mod+d exec rofi -show run -dpi 128 -lines 5 -width 25 -display-run ">" -font "Source Sans Pro 10"
 bindsym $mod+Shift+p exec gnome-screenshot
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5% #decrease sound volume
