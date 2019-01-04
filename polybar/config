@@ -1,7 +1,7 @@
 [bar/bar]
 font-0 = "Source Pro Sans:style=Bold:size=8;2"
 font-1 = "FontAwesome:style=Regular:size=8;1"
-modules-right = audio cpu date
+modules-right = spotify audio cpu date
 modules-left = ewmh
 background = rgba(0, 0, 0, 0)
 dpi = 128
@@ -10,10 +10,10 @@ height = 22
 [module/audio]
 type=internal/pulseaudio
 format-volume-padding = 2
-format-volume-background = #ecebbe
+format-volume-background = #ea96eb
 format-volume-foreground = #111111
 format-muted-padding = 2
-format-muted-background = #ecebbe
+format-muted-background = #ea96eb
 format-muted-foreground = #111111
 label-muted =   0%
 label-volume =   %percentage%%
@@ -37,9 +37,9 @@ label-full =   %percentage%%
 
 [module/date]
 type = internal/date
-date = %Y-%m-%d  %H:%M:%S
+date = %Y-%m-%d %H:%M:%S
 format-padding = 2
-format-background = #b6e77d
+format-background = #a9cdeb
 format-foreground = #111111
 format =   <label>
 
@@ -47,8 +47,7 @@ format =   <label>
 type = internal/cpu
 interval = 0.5
 format-padding = 2
-#format-background = #e9897c
-format-background = #a9cdeb
+format-background = #ecebbe
 format-foreground = #111111
 label =   %percentage%%
 
@@ -64,3 +63,13 @@ label-active-background = #6c6c6c
 label-active-foreground = #f2f2f2
 label-empty-background = #6c6c6c
 label-empty-foreground = #c9caec
+
+[module/spotify]
+type = custom/script
+exec = ~/.config/polybar/spotify.sh %artist% - %title%
+tail = true
+interval = 1
+format-foreground = #111111
+format-background = #b6e77d
+format-padding = 2
+label =   %output%

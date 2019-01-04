@@ -89,9 +89,6 @@ exec --no-startup-id feh --bg-scale ~/Images/monument_valley.jpg
 exec --no-startup-id $HOME/.config/polybar/launch.sh
 
 # floating apps
-for_window [class="Lightdm-settings"] floating enable
-for_window [class="Nitrogen"] floating enable
-for_window [class="Lxappearance"] floating enable
 for_window [title="About Mozilla Firefox"] floating enable
 
 # display config
