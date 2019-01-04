@@ -1,8 +1,8 @@
+URxvt*font: xft:Source Code Pro:style=Regular:size=8:antialias=true:hinting=true
 URxvt*scrollBar: false
 URxvt*foreground: #f2f2f2
 URxvt*depth: 32
 URxvt*background: rgba:1111/1111/1111/aaaa
-URxvt*font: xft:Source Code Pro:style=Regular:size=9
 
 ! Normal
 ! color0    black
@@ -42,9 +42,10 @@ urxvt*color13:    #fba1fb
 urxvt*color14:    #d7d9fc
 urxvt*color15:    #e2e2e2
 
-Xft.autohint: 0
+Xft.autohint: false
 Xft.lcdfilter: lcddefault
 Xft.hintstyle: hintslight
 Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
+Xft.dpi: 128

@@ -45,7 +45,7 @@ format =   <label>
 
 [module/cpu]
 type = internal/cpu
-interval = 0.5
+interval = 1
 format-padding = 2
 format-background = #ecebbe
 format-foreground = #111111
