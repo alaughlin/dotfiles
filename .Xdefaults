@@ -1,4 +1,4 @@
-URxvt*font: xft:Source Code Pro:style=Regular:size=8:antialias=true:hinting=true
+URxvt*font: xft:Source Code Pro:style=Semibold:size=8:antialias=true:hinting=true
 URxvt*scrollBar: false
 URxvt*foreground: #f2f2f2
 URxvt*depth: 32

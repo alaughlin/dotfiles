@@ -90,6 +90,7 @@ exec --no-startup-id $HOME/.config/polybar/launch.sh
 
 # floating apps
 for_window [title="About Mozilla Firefox"] floating enable
+for_window [class="Lxappearance"] floating enable
 
 # display config
 for_window[class="^.*"] border pixel 3
@@ -109,10 +110,10 @@ client.urgent           $urgent-bg-color   $urgent-bg-color   $text-color       
 # shortcuts
 bindsym $mod+Return exec urxvt
 bindsym $mod+Shift+q kill
-bindsym $mod+d exec rofi -show run -dpi 128 -lines 5 -width 25 -display-run ">" -font "Source Sans Pro 10"
+bindsym $mod+d exec rofi -show run -dpi 102 -lines 5 -width 25 -display-run ">" -font "Open Sans 10"
 bindsym $mod+Shift+p exec gnome-screenshot
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5% #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5% #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 1 toggle # mute sound
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
