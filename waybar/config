@@ -1,0 +1,25 @@
+{
+    "layer": "top", // Waybar at top layer
+    "height": 22, // Waybar height
+    "modules-left": ["sway/workspaces"],
+    "modules-right": ["custom/spotify", "pulseaudio", "cpu", "clock"],
+    "clock": {
+        "format": "  {:%Y-%m-%d %H:%M}",
+	"interval": 1
+    },
+    "cpu": {
+        "format": "  {usage}%",
+	"interval": 5
+    },
+    "pulseaudio": {
+        //"scroll-step": 1,
+        "format": "  {volume}%",
+        "format-muted": "  0%"
+    },
+    "custom/spotify": {
+        "format": "  {}",
+        "max-length": 40,
+        "exec": "$HOME/.config/waybar/spotify.sh",
+	"interval": 1 
+    }
+}

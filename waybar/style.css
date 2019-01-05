@@ -1,0 +1,50 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    color: #c9caec;
+    background-color: #6c6c6c;
+}
+
+#workspaces button.focused {
+    color: #f2f2f2;
+}
+
+#mode {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+#clock, #cpu, #memory, #pulseaudio, #custom-spotify {
+    color: #111111;
+    padding: 0 5px;
+}
+
+#clock {
+    background-color: #a9cdeb;
+}
+
+#cpu {
+    background: #ecebbe;
+}
+
+#pulseaudio {
+    background: #ea96eb;
+}
+
+#custom-spotify {
+    background: #b6e77d;
+}
+
