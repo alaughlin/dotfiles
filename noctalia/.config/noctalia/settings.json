@@ -12,6 +12,7 @@
     },
     "audio": {
         "cavaFrameRate": 120,
+        "externalMixer": "pwvucontrol || pavucontrol",
         "mprisBlacklist": [
         ],
         "preferredPlayer": "spotify",
@@ -22,6 +23,7 @@
     },
     "bar": {
         "backgroundOpacity": 1,
+        "capsuleOpacity": 1,
         "density": "default",
         "exclusive": true,
         "floating": true,
@@ -102,13 +104,13 @@
             ]
         }
     },
-    "battery": {
-        "chargingMode": 0
-    },
     "brightness": {
         "brightnessStep": 5,
         "enableDdcSupport": true,
         "enforceMinimum": true
+    },
+    "changelog": {
+        "lastSeenVersion": "v3.1.1-dev"
     },
     "colorSchemes": {
         "darkMode": true,
@@ -209,7 +211,8 @@
         "showWeekNumberInCalendar": false,
         "use12hourFormat": false,
         "useFahrenheit": true,
-        "weatherEnabled": true
+        "weatherEnabled": true,
+        "weatherShowEffects": true
     },
     "network": {
         "wifiEnabled": true
