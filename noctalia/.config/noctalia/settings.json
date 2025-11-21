@@ -60,7 +60,7 @@
                     "hideWhenIdle": false,
                     "id": "MediaMini",
                     "maxWidth": 1000,
-                    "scrollingMode": "hover",
+                    "scrollingMode": "always",
                     "showAlbumArt": true,
                     "showArtistFirst": true,
                     "showVisualizer": false,
@@ -91,7 +91,7 @@
                     "formatHorizontal": "HH:mm:ss ddd, MMM dd",
                     "formatVertical": "HH mm - dd MM",
                     "id": "Clock",
-                    "useCustomFont": true,
+                    "useCustomFont": false,
                     "usePrimaryColor": true
                 },
                 {
@@ -170,12 +170,13 @@
         "colorizeIcons": false,
         "displayMode": "always_visible",
         "enabled": false,
-        "floatingRatio": 1,
+        "floatingRatio": 1.5,
         "monitors": [
         ],
         "onlySameOutput": true,
         "pinnedApps": [
         ],
+        "radiusRatio": 0.25,
         "size": 1
     },
     "general": {
@@ -333,7 +334,7 @@
     "ui": {
         "fontDefault": "Roboto",
         "fontDefaultScale": 0.95,
-        "fontFixed": "Noto Sans Mono",
+        "fontFixed": "JetBrains Mono",
         "fontFixedScale": 0.95,
         "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": true,
