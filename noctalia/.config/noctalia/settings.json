@@ -2,6 +2,7 @@
     "appLauncher": {
         "customLaunchPrefix": "",
         "customLaunchPrefixEnabled": false,
+        "enableClipPreview": true,
         "enableClipboardHistory": true,
         "pinnedExecs": [
         ],
@@ -176,7 +177,7 @@
         "onlySameOutput": true,
         "pinnedApps": [
         ],
-        "radiusRatio": 0.25,
+        "radiusRatio": 0.26,
         "size": 1
     },
     "general": {
@@ -368,7 +369,7 @@
             {
                 "directory": "/home/adam/Pictures/Wallpapers",
                 "name": "HDMI-A-2",
-                "wallpaper": "/home/adam/Pictures/Wallpapers/wp12944071-hiroshi-nagai-computer-wallpapers.png"
+                "wallpaper": "/home/adam/Pictures/Wallpapers/pacific-breeze.png"
             }
         ],
         "overviewEnabled": false,
