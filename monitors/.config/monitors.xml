@@ -1,0 +1,7 @@
+<monitors version="2">
+  <configuration>
+    <logicalmonitor>
+      <scale>1.5</scale>
+    </logicalmonitor>
+  </configuration>
+</monitors>

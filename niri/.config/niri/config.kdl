@@ -7,6 +7,7 @@ prefer-no-csd
 
 spawn-sh-at-startup "qs -c noctalia-shell"
 spawn-sh-at-startup "xrdb -merge ~/.Xresources"
+spawn-sh-at-startup "udiskie"
 
 environment {
     QT_QPA_PLATFORMTHEME "gtk3"
@@ -172,7 +173,5 @@ binds {
     Mod+V       { toggle-window-floating; }
     Mod+Shift+V { switch-focus-between-floating-and-tiling; }
     Mod+W { toggle-column-tabbed-display; }
-    Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
     Mod+Shift+E { quit; }
-    Ctrl+Alt+Delete { quit; }
 }

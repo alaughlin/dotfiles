@@ -6,7 +6,7 @@
         "enableClipboardHistory": true,
         "pinnedExecs": [
         ],
-        "position": "center",
+        "position": "top_center",
         "sortByMostUsed": true,
         "terminalCommand": "xterm -e",
         "useApp2Unit": false
@@ -39,6 +39,7 @@
             "center": [
                 {
                     "characterCount": 2,
+                    "followFocusedScreen": false,
                     "hideUnoccupied": false,
                     "id": "Workspace",
                     "labelMode": "index"
@@ -118,7 +119,7 @@
         "generateTemplatesForPredefined": true,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
-        "matugenSchemeType": "scheme-fruit-salad",
+        "matugenSchemeType": "scheme-fidelity",
         "predefinedScheme": "Tokyo Night",
         "schedulingMode": "off",
         "useWallpaperColors": false
@@ -177,16 +178,16 @@
         "onlySameOutput": true,
         "pinnedApps": [
         ],
-        "radiusRatio": 0.26,
+        "radiusRatio": 0.25,
         "size": 1
     },
     "general": {
         "allowPanelsOnScreenWithoutBar": true,
         "animationDisabled": false,
         "animationSpeed": 1,
-        "avatarImage": "/home/alaughlin/.face",
+        "avatarImage": "/home/adam/.face.icon",
         "compactLockScreen": false,
-        "dimmerOpacity": 0.75,
+        "dimmerOpacity": 0.5,
         "enableShadows": false,
         "forceBlackScreenCorners": true,
         "language": "",
@@ -197,6 +198,7 @@
         "shadowDirection": "bottom",
         "shadowOffsetX": 0,
         "shadowOffsetY": 3,
+        "showHibernateOnLockScreen": false,
         "showScreenCorners": true
     },
     "hooks": {
@@ -244,7 +246,7 @@
     "osd": {
         "autoHideMs": 2000,
         "backgroundOpacity": 1,
-        "enabled": true,
+        "enabled": false,
         "location": "top_right",
         "monitors": [
         ],
@@ -328,6 +330,7 @@
         "pywalfox": false,
         "qt": false,
         "spicetify": false,
+        "telegram": false,
         "vicinae": false,
         "walker": false,
         "wezterm": false
@@ -384,11 +387,11 @@
         "useWallhaven": false,
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
-        "wallhavenPurity": "100",
-        "wallhavenQuery": "",
-        "wallhavenResolutionHeight": "",
+        "wallhavenPurity": "111",
+        "wallhavenQuery": "nagai",
+        "wallhavenResolutionHeight": "2160",
         "wallhavenResolutionMode": "atleast",
-        "wallhavenResolutionWidth": "",
+        "wallhavenResolutionWidth": "3840",
         "wallhavenSorting": "date_added"
     }
 }
