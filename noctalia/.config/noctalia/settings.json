@@ -9,7 +9,8 @@
         "position": "top_center",
         "sortByMostUsed": true,
         "terminalCommand": "xterm -e",
-        "useApp2Unit": false
+        "useApp2Unit": false,
+        "viewMode": "list"
     },
     "audio": {
         "cavaFrameRate": 120,
@@ -65,6 +66,7 @@
                     "scrollingMode": "always",
                     "showAlbumArt": true,
                     "showArtistFirst": true,
+                    "showProgressRing": true,
                     "showVisualizer": false,
                     "useFixedWidth": false,
                     "visualizerType": "wave"
@@ -232,14 +234,14 @@
     },
     "notifications": {
         "backgroundOpacity": 1,
-        "criticalUrgencyDuration": 15,
-        "enableKeyboardLayoutToast": true,
+        "criticalUrgencyDuration": 5,
+        "enableKeyboardLayoutToast": false,
         "enabled": true,
         "location": "top",
-        "lowUrgencyDuration": 3,
+        "lowUrgencyDuration": 2,
         "monitors": [
         ],
-        "normalUrgencyDuration": 8,
+        "normalUrgencyDuration": 3,
         "overlayLayer": true,
         "respectExpireTimeout": false
     },
@@ -247,6 +249,12 @@
         "autoHideMs": 2000,
         "backgroundOpacity": 1,
         "enabled": false,
+        "enabledTypes": [
+            0,
+            1,
+            2,
+            3
+        ],
         "location": "top_right",
         "monitors": [
         ],
@@ -301,7 +309,7 @@
         ],
         "showHeader": true
     },
-    "settingsVersion": 23,
+    "settingsVersion": 24,
     "setupCompleted": true,
     "systemMonitor": {
         "cpuCriticalThreshold": 90,
@@ -318,6 +326,7 @@
     },
     "templates": {
         "alacritty": false,
+        "cava": false,
         "code": false,
         "discord": false,
         "enableUserTemplates": false,
