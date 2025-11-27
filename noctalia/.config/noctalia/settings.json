@@ -113,6 +113,26 @@
         "enableDdcSupport": true,
         "enforceMinimum": true
     },
+    "calendar": {
+        "cards": [
+            {
+                "enabled": true,
+                "id": "banner-card"
+            },
+            {
+                "enabled": true,
+                "id": "calendar-card"
+            },
+            {
+                "enabled": true,
+                "id": "timer-card"
+            },
+            {
+                "enabled": true,
+                "id": "weather-card"
+            }
+        ]
+    },
     "changelog": {
         "lastSeenVersion": "v3.1.1-dev"
     },
@@ -196,7 +216,7 @@
         "lockOnSuspend": true,
         "radiusRatio": 0.25,
         "scaleRatio": 0.9500000000000001,
-        "screenRadiusRatio": 0.25,
+        "screenRadiusRatio": 0.5,
         "shadowDirection": "bottom",
         "shadowOffsetX": 0,
         "shadowOffsetY": 3,
@@ -309,8 +329,7 @@
         ],
         "showHeader": true
     },
-    "settingsVersion": 24,
-    "setupCompleted": true,
+    "settingsVersion": 25,
     "systemMonitor": {
         "cpuCriticalThreshold": 90,
         "cpuWarningThreshold": 80,

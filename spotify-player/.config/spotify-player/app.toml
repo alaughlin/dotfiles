@@ -48,9 +48,9 @@ playlist_percent = 40
 album_percent = 40
 
 [device]
-name = "Arch Linux"
+name = "spotify-player"
 device_type = "speaker"
-volume = 80
+volume = 70
 bitrate = 320
 audio_cache = false
 normalization = false
