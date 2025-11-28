@@ -153,10 +153,6 @@
                 "id": "profile-card"
             },
             {
-                "enabled": true,
-                "id": "shortcuts-card"
-            },
-            {
                 "enabled": false,
                 "id": "audio-card"
             },
@@ -167,6 +163,10 @@
             {
                 "enabled": true,
                 "id": "media-sysmon-card"
+            },
+            {
+                "enabled": true,
+                "id": "shortcuts-card"
             }
         ],
         "position": "close_to_bar_button",
@@ -177,15 +177,15 @@
                 },
                 {
                     "id": "WallpaperSelector"
-                }
-            ],
-            "right": [
+                },
                 {
                     "id": "KeepAwake"
                 },
                 {
                     "id": "PowerProfile"
                 }
+            ],
+            "right": [
             ]
         }
     },
@@ -332,13 +332,18 @@
     "settingsVersion": 25,
     "systemMonitor": {
         "cpuCriticalThreshold": 90,
+        "cpuPollingInterval": 3000,
         "cpuWarningThreshold": 80,
         "criticalColor": "",
         "diskCriticalThreshold": 90,
+        "diskPollingInterval": 3000,
         "diskWarningThreshold": 80,
         "memCriticalThreshold": 90,
+        "memPollingInterval": 3000,
         "memWarningThreshold": 80,
+        "networkPollingInterval": 3000,
         "tempCriticalThreshold": 90,
+        "tempPollingInterval": 3000,
         "tempWarningThreshold": 80,
         "useCustomColors": false,
         "warningColor": ""
