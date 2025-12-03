@@ -39,14 +39,22 @@
         "widgets": {
             "center": [
                 {
+                    "customFont": "",
+                    "formatHorizontal": "HH:mm ddd, MMM dd",
+                    "formatVertical": "HH mm - dd MM",
+                    "id": "Clock",
+                    "useCustomFont": false,
+                    "usePrimaryColor": true
+                }
+            ],
+            "left": [
+                {
                     "characterCount": 2,
                     "followFocusedScreen": false,
                     "hideUnoccupied": false,
                     "id": "Workspace",
                     "labelMode": "index"
-                }
-            ],
-            "left": [
+                },
                 {
                     "colorizeIcons": false,
                     "hideMode": "hidden",
@@ -91,16 +99,10 @@
                     "id": "Volume"
                 },
                 {
-                    "customFont": "Roboto",
-                    "formatHorizontal": "HH:mm:ss ddd, MMM dd",
-                    "formatVertical": "HH mm - dd MM",
-                    "id": "Clock",
-                    "useCustomFont": false,
-                    "usePrimaryColor": true
-                },
-                {
                     "colorizeDistroLogo": false,
+                    "colorizeSystemIcon": "none",
                     "customIconPath": "",
+                    "enableColorization": false,
                     "icon": "noctalia",
                     "id": "ControlCenter",
                     "useDistroLogo": false
@@ -117,14 +119,14 @@
         "cards": [
             {
                 "enabled": true,
-                "id": "banner-card"
+                "id": "calendar-header-card"
             },
             {
                 "enabled": true,
-                "id": "calendar-card"
+                "id": "calendar-month-card"
             },
             {
-                "enabled": true,
+                "enabled": false,
                 "id": "timer-card"
             },
             {
@@ -200,18 +202,19 @@
         "onlySameOutput": true,
         "pinnedApps": [
         ],
-        "radiusRatio": 0.25,
         "size": 1
     },
     "general": {
         "allowPanelsOnScreenWithoutBar": true,
         "animationDisabled": false,
-        "animationSpeed": 1,
+        "animationSpeed": 0.8,
         "avatarImage": "/home/adam/.face.icon",
+        "boxRadiusRatio": 1,
         "compactLockScreen": false,
         "dimmerOpacity": 0.5,
         "enableShadows": false,
         "forceBlackScreenCorners": true,
+        "iRadiusRatio": 1,
         "language": "",
         "lockOnSuspend": true,
         "radiusRatio": 0.25,
@@ -329,7 +332,7 @@
         ],
         "showHeader": true
     },
-    "settingsVersion": 25,
+    "settingsVersion": 26,
     "systemMonitor": {
         "cpuCriticalThreshold": 90,
         "cpuPollingInterval": 3000,
@@ -353,6 +356,7 @@
         "cava": false,
         "code": false,
         "discord": false,
+        "emacs": false,
         "enableUserTemplates": false,
         "foot": false,
         "fuzzel": false,
@@ -360,6 +364,7 @@
         "gtk": false,
         "kcolorscheme": false,
         "kitty": false,
+        "niri": false,
         "pywalfox": false,
         "qt": false,
         "spicetify": false,
@@ -379,34 +384,13 @@
         "tooltipsEnabled": false
     },
     "wallpaper": {
-        "defaultWallpaper": "/home/alaughlin/.config/quickshell/noctalia-shell/Assets/Wallpaper/noctalia.png",
         "directory": "/home/adam/Pictures/Wallpapers",
         "enableMultiMonitorDirectories": false,
         "enabled": true,
         "fillColor": "#000000",
         "fillMode": "crop",
         "hideWallpaperFilenames": false,
-        "monitors": [
-            {
-                "directory": "/home/alaughlin/Pictures/Wallpapers",
-                "name": "HDMI-A-1",
-                "wallpaper": "/home/adam/Pictures/Wallpapers/Pawy3Q.png"
-            },
-            {
-                "directory": "/home/adam/Pictures/Wallpapers",
-                "name": "DP-1",
-                "wallpaper": "/home/adam/Pictures/Wallpapers/Pawy3Q.png"
-            },
-            {
-                "directory": "/home/adam/Pictures/Wallpapers",
-                "name": "DP-2",
-                "wallpaper": "/home/adam/Pictures/Wallpapers/Pawy3Q.png"
-            },
-            {
-                "directory": "/home/adam/Pictures/Wallpapers",
-                "name": "HDMI-A-2",
-                "wallpaper": "/home/adam/Pictures/Wallpapers/pacific-breeze.png"
-            }
+        "monitorDirectories": [
         ],
         "overviewEnabled": false,
         "panelPosition": "follow_bar",
